@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A3965E6152DF5FE0005CDC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3965E5152DF5FE0005CDC9 /* UIKit.framework */; };
+		3A3965E8152DF5FE0005CDC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3965E7152DF5FE0005CDC9 /* Foundation.framework */; };
+		3A3965EA152DF5FE0005CDC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3965E9152DF5FE0005CDC9 /* CoreGraphics.framework */; };
+		3A3965F0152DF5FE0005CDC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A3965EE152DF5FE0005CDC9 /* InfoPlist.strings */; };
+		3A3965F3152DF5FE0005CDC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3965F2152DF5FE0005CDC9 /* main.m */; };
+		3A3965F6152DF5FE0005CDC9 /* HelloOpenglAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A3965F5152DF5FE0005CDC9 /* HelloOpenglAppDelegate.mm */; };
+		3A396600152DF61E0005CDC9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3965FF152DF61E0005CDC9 /* OpenGLES.framework */; };
+		3A396602152DF6250005CDC9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A396601152DF6250005CDC9 /* QuartzCore.framework */; };
+		3A396605152DF6680005CDC9 /* GLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A396604152DF6680005CDC9 /* GLView.mm */; };
+		3A39660B152E0DC90005CDC9 /* RenderingEngine1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A396609152E0DC90005CDC9 /* RenderingEngine1.cpp */; };
+		3A39660E152E0DE70005CDC9 /* RenderingEngine2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A39660C152E0DE70005CDC9 /* RenderingEngine2.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A3965E1152DF5FE0005CDC9 /* HelloOpengl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloOpengl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3965E5152DF5FE0005CDC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A3965E7152DF5FE0005CDC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A3965E9152DF5FE0005CDC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A3965ED152DF5FE0005CDC9 /* HelloOpengl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloOpengl-Info.plist"; sourceTree = "<group>"; };
+		3A3965EF152DF5FE0005CDC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A3965F1152DF5FE0005CDC9 /* HelloOpengl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloOpengl-Prefix.pch"; sourceTree = "<group>"; };
+		3A3965F2152DF5FE0005CDC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A3965F4152DF5FE0005CDC9 /* HelloOpenglAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloOpenglAppDelegate.h; sourceTree = "<group>"; };
+		3A3965F5152DF5FE0005CDC9 /* HelloOpenglAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloOpenglAppDelegate.mm; sourceTree = "<group>"; };
+		3A3965FF152DF61E0005CDC9 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		3A396601152DF6250005CDC9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3A396603152DF6680005CDC9 /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLView.h; path = HelloOpengl.xcodeproj/GLView.h; sourceTree = "<group>"; };
+		3A396604152DF6680005CDC9 /* GLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GLView.mm; path = HelloOpengl.xcodeproj/GLView.mm; sourceTree = "<group>"; };
+		3A396608152E050C0005CDC9 /* IRenderingEngine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IRenderingEngine.hpp; sourceTree = "<group>"; };
+		3A396609152E0DC90005CDC9 /* RenderingEngine1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderingEngine1.cpp; sourceTree = "<group>"; };
+		3A39660C152E0DE70005CDC9 /* RenderingEngine2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderingEngine2.cpp; sourceTree = "<group>"; };
+		3ACB565A152EF7E800AF7727 /* Simple.vert */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Simple.vert; sourceTree = "<group>"; };
+		3ACB565B152EF7FF00AF7727 /* Simple.frag */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Simple.frag; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A3965DE152DF5FE0005CDC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A396602152DF6250005CDC9 /* QuartzCore.framework in Frameworks */,
+				3A396600152DF61E0005CDC9 /* OpenGLES.framework in Frameworks */,
+				3A3965E6152DF5FE0005CDC9 /* UIKit.framework in Frameworks */,
+				3A3965E8152DF5FE0005CDC9 /* Foundation.framework in Frameworks */,
+				3A3965EA152DF5FE0005CDC9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A3965D6152DF5FD0005CDC9 = {
+			isa = PBXGroup;
+			children = (
+				3ACB5659152EF77F00AF7727 /* Classes */,
+				3ACB5657152EF77100AF7727 /* Saders */,
+				3A3965EB152DF5FE0005CDC9 /* HelloOpengl */,
+				3A3965E4152DF5FE0005CDC9 /* Frameworks */,
+				3A3965E2152DF5FE0005CDC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A3965E2152DF5FE0005CDC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A3965E1152DF5FE0005CDC9 /* HelloOpengl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A3965E4152DF5FE0005CDC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A396601152DF6250005CDC9 /* QuartzCore.framework */,
+				3A3965FF152DF61E0005CDC9 /* OpenGLES.framework */,
+				3A3965E5152DF5FE0005CDC9 /* UIKit.framework */,
+				3A3965E7152DF5FE0005CDC9 /* Foundation.framework */,
+				3A3965E9152DF5FE0005CDC9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A3965EB152DF5FE0005CDC9 /* HelloOpengl */ = {
+			isa = PBXGroup;
+			children = (
+				3A3965F4152DF5FE0005CDC9 /* HelloOpenglAppDelegate.h */,
+				3A3965F5152DF5FE0005CDC9 /* HelloOpenglAppDelegate.mm */,
+				3A3965EC152DF5FE0005CDC9 /* Supporting Files */,
+			);
+			path = HelloOpengl;
+			sourceTree = "<group>";
+		};
+		3A3965EC152DF5FE0005CDC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A3965ED152DF5FE0005CDC9 /* HelloOpengl-Info.plist */,
+				3A3965EE152DF5FE0005CDC9 /* InfoPlist.strings */,
+				3A3965F1152DF5FE0005CDC9 /* HelloOpengl-Prefix.pch */,
+				3A3965F2152DF5FE0005CDC9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3ACB5657152EF77100AF7727 /* Saders */ = {
+			isa = PBXGroup;
+			children = (
+				3ACB565A152EF7E800AF7727 /* Simple.vert */,
+				3ACB565B152EF7FF00AF7727 /* Simple.frag */,
+			);
+			name = Saders;
+			sourceTree = "<group>";
+		};
+		3ACB5659152EF77F00AF7727 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3A396609152E0DC90005CDC9 /* RenderingEngine1.cpp */,
+				3A39660C152E0DE70005CDC9 /* RenderingEngine2.cpp */,
+				3A396608152E050C0005CDC9 /* IRenderingEngine.hpp */,
+				3A396603152DF6680005CDC9 /* GLView.h */,
+				3A396604152DF6680005CDC9 /* GLView.mm */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A3965E0152DF5FE0005CDC9 /* HelloOpengl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3965FC152DF5FE0005CDC9 /* Build configuration list for PBXNativeTarget "HelloOpengl" */;
+			buildPhases = (
+				3A3965DD152DF5FE0005CDC9 /* Sources */,
+				3A3965DE152DF5FE0005CDC9 /* Frameworks */,
+				3A3965DF152DF5FE0005CDC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloOpengl;
+			productName = HelloOpengl;
+			productReference = 3A3965E1152DF5FE0005CDC9 /* HelloOpengl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A3965D8152DF5FE0005CDC9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3A3965DB152DF5FE0005CDC9 /* Build configuration list for PBXProject "HelloOpengl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A3965D6152DF5FD0005CDC9;
+			productRefGroup = 3A3965E2152DF5FE0005CDC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A3965E0152DF5FE0005CDC9 /* HelloOpengl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A3965DF152DF5FE0005CDC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3965F0152DF5FE0005CDC9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A3965DD152DF5FE0005CDC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3965F3152DF5FE0005CDC9 /* main.m in Sources */,
+				3A3965F6152DF5FE0005CDC9 /* HelloOpenglAppDelegate.mm in Sources */,
+				3A396605152DF6680005CDC9 /* GLView.mm in Sources */,
+				3A39660B152E0DC90005CDC9 /* RenderingEngine1.cpp in Sources */,
+				3A39660E152E0DE70005CDC9 /* RenderingEngine2.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A3965EE152DF5FE0005CDC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A3965EF152DF5FE0005CDC9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A3965FA152DF5FE0005CDC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A3965FB152DF5FE0005CDC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		3A3965FD152DF5FE0005CDC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloOpengl/HelloOpengl-Prefix.pch";
+				INFOPLIST_FILE = "HelloOpengl/HelloOpengl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A3965FE152DF5FE0005CDC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloOpengl/HelloOpengl-Prefix.pch";
+				INFOPLIST_FILE = "HelloOpengl/HelloOpengl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A3965DB152DF5FE0005CDC9 /* Build configuration list for PBXProject "HelloOpengl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3965FA152DF5FE0005CDC9 /* Debug */,
+				3A3965FB152DF5FE0005CDC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A3965FC152DF5FE0005CDC9 /* Build configuration list for PBXNativeTarget "HelloOpengl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3965FD152DF5FE0005CDC9 /* Debug */,
+				3A3965FE152DF5FE0005CDC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A3965D8152DF5FE0005CDC9 /* Project object */;
+}
