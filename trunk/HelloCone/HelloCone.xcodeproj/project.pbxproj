@@ -40,6 +40,9 @@
 		3ACB565B152EF7FF00AF7727 /* Simple.frag */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Simple.frag; sourceTree = "<group>"; };
 		3ACB56A7152F286500AF7727 /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
 		3ACB56A8152F286500AF7727 /* GLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLView.mm; sourceTree = "<group>"; };
+		3ACB56B2152F2C6700AF7727 /* Vector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vector.hpp; sourceTree = "<group>"; };
+		3ACB56B4152F354B00AF7727 /* Matrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Matrix.hpp; sourceTree = "<group>"; };
+		3ACB56B5152F356200AF7727 /* Quaternion.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Quaternion.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,9 @@
 				3A396608152E050C0005CDC9 /* IRenderingEngine.hpp */,
 				3ACB56A7152F286500AF7727 /* GLView.h */,
 				3ACB56A8152F286500AF7727 /* GLView.mm */,
+				3ACB56B2152F2C6700AF7727 /* Vector.hpp */,
+				3ACB56B4152F354B00AF7727 /* Matrix.hpp */,
+				3ACB56B5152F356200AF7727 /* Quaternion.hpp */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
